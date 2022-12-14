@@ -4,7 +4,7 @@
  */
 import {type ConstructorOptions, type DOMWindow, JSDOM, ResourceLoader} from 'jsdom';
 
-type JsdomConfig = {
+export type JsdomConfig = {
 	features: Record<string, boolean>;
 } & Partial<ConstructorOptions>;
 
